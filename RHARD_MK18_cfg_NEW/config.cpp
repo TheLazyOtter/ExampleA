@@ -69,6 +69,8 @@ class CfgWeapons {
 		handAnim[] = {"OFP2_ManSkeleton", "\RHARD_MK18\anim\MK18.rtm"};
 		descriptionShort = "MK18Mod1";
 		UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
+		inertia = 0.3;
+		dexterity = 1.9;
 		
 		class Library {
 			libTextDesc = "MK18 Mod 1 Carbine";
@@ -79,8 +81,6 @@ class CfgWeapons {
 			RMBhint = "MK18Mod1";
 			onHoverText = "MK18 Mod 1";
 		};
-		inertia = 0.3;
-		dexterity = 1.9;
 	};
 	
 	class RHARD_MK18_base_F : RHARD_MK18_base {
@@ -90,7 +90,6 @@ class CfgWeapons {
 	class RHARD_M4_base_F : rhs_weap_m4a1_blockII {
 		descriptionShort = M4A1;
 		
-		};
 		
 		class Library {
 			libTextDesc = "M4A1 Block 2 Carbine";
